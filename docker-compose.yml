@@ -1,0 +1,11 @@
+version: '3'
+services:
+  compiler:
+    build: .
+    container_name: ts-node-slim-compiler
+    volumes:
+    - .:/app:cached
+    environment:
+      TSC_NONPOLLING_WATCHER: 1
+    entrypoint: tsc --preserveWatchOutput --watch
+    restart: always

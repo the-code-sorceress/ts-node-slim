@@ -1,0 +1,14 @@
+{
+  "name": "ts-node-slim",
+  "version": "1.0.0",
+  "description": "TS Node minimal boilerplate",
+  "scripts": {
+    "test": "ENVIRONMENT_FILE=testing jest"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "jest": "^26.4.2"
+  }
+}
